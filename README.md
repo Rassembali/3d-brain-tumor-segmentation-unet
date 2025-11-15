@@ -40,52 +40,7 @@ Segment the 3 tumor regions defined in BraTS:
 
 ---
 
-# 📁 Repository Structure
 
-
-
-# 📁 Repository Structure
-
-brats-3d-unet/
-│
-├── src/
-│ ├── data/
-│ │ ├── bbox.py
-│ │ ├── preprocessing.py
-│ │ ├── utils_io.py
-│ ├── model/
-│ │ ├── Unet-3d.py
-│ │ ├── losses.py
-│ ├── train/
-│ │ ├── dataloader.py
-│ │ ├── train_loop.py
-│ │ ├── metrics.py
-│ ├── inference/
-│ │ ├── predict.py
-│ │ ├── visualization.py
-│ ├── evaluation/
-│ ├── eval_patient.py
-│
-├── samples/
-│ ├── comparison_grid.png
-│ ├── modalities.png
-│ ├── multi_slice_segmentation_comparison.png
-│ ├── multi_slice_segmentation_comparison2.png
-│ ├── overlay_groundtruth.png
-│ ├── overlay_prediction.png
-│ └── overlay.png
-│
-├── saved_model/
-│ └── model_chunk0.pth
-│
-├── notebook/
-│ └── brats2021-3d-unet-pipeline.ipynb
-│
-├── requirements.txt
-└── README.md
-
-
----
 
 # ⚙️ Pipeline Details
 
